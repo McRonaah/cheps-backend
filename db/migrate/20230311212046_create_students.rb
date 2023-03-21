@@ -5,9 +5,9 @@ class CreateStudents < ActiveRecord::Migration[7.0]
       t.string :admission
       t.integer :age
       t.string :club
-      t.string :co-curricular
-      t.date :start-date
-      t.date :end-date
+      t.string :co_curricular
+      t.date :start_date
+      t.date :end_date
 
       t.timestamps
     end
